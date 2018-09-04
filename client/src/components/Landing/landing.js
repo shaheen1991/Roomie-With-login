@@ -1,7 +1,9 @@
-import React from "react";
+import React, { Component, Fragment } from 'react';
 import "./landing.css";
 import { css } from 'react-emotion';
 import { BarLoader } from 'react-spinners';
+import { withUser } from '../../services/withUser';
+import { Link } from "react-router-dom";
 
 const override = css`
     display: block;
@@ -28,11 +30,16 @@ class Landing extends React.Component {
         setTimeout(()=> this.setState({loading:false}),3000)
       
        console.log("DID MOUNT: ", this.state.loading)
+
+       if (!this.props.user) {
+        return;
+      }
     }
 
 
     render() {
         const loading = this.state.loading;
+        const { user } = this.props;
 
         if(loading){
             return(
@@ -51,11 +58,12 @@ class Landing extends React.Component {
 
         } else {
             return (
-
+                <Fragment>
+                 {user &&
                 <div>
-
                     <div id="landing">
-                        <h1 id="welcomeText">Welcome to Roomie</h1>
+                        <h1 id="welcomeText">Welcome To Roomie</h1>
+                        <h1 id="loginText">Welcome Back {user.username}!</h1>
                         <div id="landingLeft">
                             <img id="side2" alt="side2" src="/img/side2.png" />
                         </div>
@@ -70,8 +78,30 @@ class Landing extends React.Component {
                         <img id="side" alt="side" src="/img/side.png" />
                     </div>
                 </div>
-
-
+                 }
+                  {!user &&
+                   <div>
+                   <div id="landing">
+                       <h1 id="welcomeText">Welcome to Roomie</h1>
+                       <h1 id="loginText">I don't recognize you! Please <a><Link to="/login">
+                       Login/Register</Link></a></h1>
+                       <div id="landingLeft">
+                           <img id="side2" alt="side2" src="/img/side2.png" />
+                       </div>
+                       <div id="landingRight">
+                           <img alt="" id="rightPic" />
+                       </div>
+                       <div id="icon">
+                           <img id="roomieIcon" alt="" src="/img/roomieIconTrans.png" />
+                           <img id="side" alt="" src="/img/side.png" />
+                       </div>
+                       <img id="roomieIcon" alt="roomie icon" src="/img/roomieIconTrans.png" />
+                       <img id="side" alt="side" src="/img/side.png" />
+                   </div>
+                   </div>
+                   }
+                </Fragment> 
+             
             )
 
         }
@@ -82,4 +112,4 @@ class Landing extends React.Component {
 }
 ;
 
-export default Landing;
+export default withUser(Landing);

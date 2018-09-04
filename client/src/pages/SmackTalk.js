@@ -44,13 +44,14 @@ import "../components/Chat/chat.css";
     };
    
     handleFormSubmit = event => {
+      const { user } = this.props;
       event.preventDefault();
       console.log("adding to db")
       ////if (this.state.authorName && this.state.authorComment) {
         console.log("here")
         console.log(this.state.authorName)
         API.saveSmacks({
-          authorName: this.state.authorName,
+          authorName: user.username,
           authorComment: this.state.authorComment
         })
           .then(res => this.loadSmacks())
@@ -83,7 +84,7 @@ import "../components/Chat/chat.css";
                value={this.state.authorName}
                onChange={this.handleInputChange}
                name="authorName"
-               placeholder="Your name"
+               placeholder={user.username}
              />
              <Input
                value={this.state.authorComment}

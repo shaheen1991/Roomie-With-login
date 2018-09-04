@@ -13,6 +13,7 @@ import Wrapper from "../components/Wrapper";
 import { Carousel } from 'react-bootstrap';
 import { withUser } from '../services/withUser';
 import Landing from '../components/Landing/landing';
+import "../css/calendar.css";
 
 BigCalendar.setLocalizer(BigCalendar.momentLocalizer(moment))
 
@@ -94,6 +95,7 @@ class Calendar extends Component {
         <Container className="calContainer" style={{ paddingTop: 80, paddingBottom: 20}}>
         {/* <h1 className="calendarHead">Calendar</h1> */}
           <Row >
+          <h1 id="nameText"> Welcome Back {user.username}!</h1>
             <Col size="md-12"className= "customCal">
               <BigCalendar
                 defaultDate={new Date()}
