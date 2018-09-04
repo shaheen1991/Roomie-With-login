@@ -1,0 +1,116 @@
+.example{
+  width: 500px;
+  height: 550px;  
+  background: url("/img/landing4.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 30%;
+  height: 91.5%;
+}
+
+#taskCont {
+    width: 450px;
+    background-color: rgba(255,255,255,0.6);
+    height: 100%;
+    padding-top: 50px;
+}
+
+#taskDetails {
+  margin: 15px;
+  margin-top: 47px;
+  margin-bottom: 38px;
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 50px;
+  font-weight: bolder;
+
+}
+
+#choreTitle {
+  margin: 15px;
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 15px;
+}
+
+#choreRoomie{
+  margin: 15px;
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 15px;
+}
+
+#choreDetails{
+  margin: 15px;
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 15px;
+  margin-bottom: 50px;
+}
+
+.styles_closeButton__20ID4 {
+  margin-top: 0;
+  margin-right: 0;
+  border: none;
+  padding: 0;
+  background-color: transparent;
+  display: flex;
+}
+
+.styles_modal__gNwvD {
+  width: 100%;
+  background: transparent;
+  background-clip: padding-box;
+  -webkit-box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.25);
+  box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.25);
+  margin-left: 600px;
+  margin-top: 0;
+  margin-right: 0;
+  background-image: initial;
+  position: relative;
+}
+
+.styles_overlay__CLSq- {
+  background: rgba(0, 0, 0, 0.75);
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  right: 0;
+  overflow-x: hidden;
+  z-index: 1000;
+  padding: 1.2rem;
+}
+
+.btn-danger {
+  background-color: rgb(140,106,78);
+  color: white;
+  margin-bottom: 50px;
+  border: none;
+  font-size: 15px;
+  padding:10px;
+}
+
+.btn-danger:hover {
+  background-color: rgb(248,241,229)!important;
+  border: 0px solid white;
+  color: rgb(140,106,78);
+}
+
+.btn-danger:focus {
+  background-color: rgb(248,241,229)!important;
+  border: 0px solid white;
+  color: rgb(140,106,78);
+}
+
+.btn-danger:active:focus {
+  background-color: rgb(248,241,229)!important;
+  border: 0px solid white;
+  color: rgb(140,106,78);
+}
+
+.modalTitle {
+  font-family: 'Alegreya Sans', sans-serif;  
+  font-size: 25px;
+}
