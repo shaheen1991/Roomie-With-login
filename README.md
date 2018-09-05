@@ -9,11 +9,11 @@ Smacktalk is an interactive page so that roommates can leave messages publically
 
 You can view the site at: https://ss-roomie2018.herokuapp.com/calendar
 
-Technologies Used:
+#Technologies Used:
 
 HTML, CSS, JS, Bootstrap.
 Node.js
-MongoDB - NoSQL data base.
+Used MongoDB - NoSQL data base.
 Used PASSPORT for authentication
 MVC folder structure.
 Deployed to Heroku with data
@@ -22,3 +22,7 @@ Dependencies:auth0-js,axios,body-parser,create-react-class,express,fullcalendar,
             mongoose,bcrypt,cookie-parser,express-session,material-ui,morgan,passport
     
 NPM packages:react-big-calender,react-bootstrap,react-burger-menu,react-custom-scrollbars,react-spinners,                   react-emotion,react-responsive-modal
+
+
+#Future Development
+
