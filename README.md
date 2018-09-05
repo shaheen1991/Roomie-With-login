@@ -1,15 +1,20 @@
 # Roomie
 
-Roomie is a responsive-web-app which a group of people can use. Here we made the app for room-mates.
-The application can be used after creating a personal id and password. If registered then you can 
-access the website.The calender page  shows current month by default and To-dos will be marked in 
-the calender. User can click the To-do to the task and the room-mate assigned to finish that task.
+Roomie is a create-react-app that is specifically designed for housemates, roommates, bedfellow, flatmate, what have you! 
 
-Smacktalk is an interactive page so that roommates can leave messages publically so that those who have valid id and password can see those messages. The chores page help users to assign their to-dos.
+The application can be used after creating a personal id and password. Once registered, you can access the website that is specific to the house/apartment that you share with your roomies. 
+
+## Page Details: 
+
+Calendar - The calendar page shows the current month with the current date highlighted in light blue. The chores input in the ChoreForm page will show up on the specific dates that they are due. When you click on the task name a modal will pop up showing who the chore has been assigned to and the details of the chore. 
+SmackTalk - The SmackTalk page is a interactive page that roomies can gather and comment or smacktalk other roomies but compliments would be ideal, obviously. 
+ChoreForm - The ChoreForm page is used to input new chores which will be randomly assigned to the roomies and show up in the Calendar page
+
+## Deployment
 
 You can view the site at: https://ss-roomie2018.herokuapp.com/calendar
 
-#Technologies Used:
+## Technologies Used:
 
 HTML, CSS, JS, Bootstrap.
 Node.js
@@ -24,5 +29,6 @@ Dependencies:auth0-js,axios,body-parser,create-react-class,express,fullcalendar,
 NPM packages:react-big-calender,react-bootstrap,react-burger-menu,react-custom-scrollbars,react-spinners,                   react-emotion,react-responsive-modal
 
 
-#Future Development
+# Future Development
+
 
