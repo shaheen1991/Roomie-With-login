@@ -13,7 +13,7 @@ You can view the site at: https://ss-roomie2018.herokuapp.com/calendar
 
 HTML, CSS, JS, Bootstrap.
 Node.js
-MongoDB - NoSQL data base.
+Used MongoDB - NoSQL data base.
 Used PASSPORT for authentication
 MVC folder structure.
 Deployed to Heroku with data
