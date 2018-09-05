@@ -14,24 +14,29 @@ ChoreForm - The ChoreForm page is used to input new chores which will be randoml
 
 You can view the site at: https://ss-roomie2018.herokuapp.com/calendar
 
-## Technologies Used:
+### Technologies Used:
 
-HTML, CSS, JS, Bootstrap.
-Node.js
-Used MongoDB - NoSQL data base.
-Used PASSPORT for authentication
-MVC folder structure.
-Deployed to Heroku with data
-Libraries used: Express, body-parser,cookie-parser,morgan,mongoose,routes.
-Dependencies:auth0-js,axios,body-parser,create-react-class,express,fullcalendar,if-env,jquery,moment,
-            mongoose,bcrypt,cookie-parser,express-session,material-ui,morgan,passport
+HTML, CSS, JS, Bootstrap, Node.js, MongoDB - NoSQL data base, PASSPORT for authentication, MVC folder structure, Heroku for data deployment
+
+### Libraries Used: 
+Express, body-parser, cookie-parser, morgan, mongoose, routes
+
+### Dependencies:
+* auth0-js, axios, body-parser, create-react-class, express, fullcalendar, if-env, jquery, moment, mongoose, bcrypt, cookie-parsr, express-session, material-ui, morgan, passport
     
-NPM packages:react-big-calender,react-bootstrap,react-burger-menu,react-custom-scrollbars,react-spinners,                   react-emotion,react-responsive-modal
+### NPM Packages:
+* react-big-calender
+* react-bootstrap
+* react-burger-menu
+* react-custom-scrollbars
+* react-spinners
+* react-emotion
+* react-responsive-modal
 
 
 # Future Development
 
-- When users register, the house/apartment address will also be specified so that the user is restricted to seeing only their house's information
-- More fun and interactive aspects to the page so that this is the go-to for everything roommate-related 
-- Chorelist page specific for each user and/or Calendar page specific to each user
+* When users register, the house/apartment address will also be specified so that the user is restricted to seeing only their house's information
+* More fun and interactive aspects to the page so that this is the go-to for everything roommate-related 
+* Chorelist page specific for each user and/or Calendar page specific to each user
 
