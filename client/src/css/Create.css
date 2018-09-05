@@ -1,5 +1,4 @@
 .login-page-row {
-    margin-top: 100px;
     margin-bottom: 100px;
 }
 
@@ -12,4 +11,9 @@
     margin-top: 100px;
     border-radius: 0.20rem;
     /* margin-bottom: 200px; */
+}
+
+.createAcctBtn {
+    font-size: 9px;
+    margin-top: 15px;
 }

@@ -11,7 +11,7 @@ import CreateAccountPage from './pages/CreateAccountPage';
 import LoginPage from './pages/LoginPage';
 import NotFoundPage from './pages/NotFoundPage';
 import './css/App.css';
-// import 'font-awesome/css/font-awesome.min.css'
+import 'font-awesome/css/font-awesome.min.css'
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 
 
