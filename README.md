@@ -14,6 +14,8 @@ ChoreForm - The ChoreForm page is used to input new chores which will be randoml
 
 You can view the site at: https://ss-roomie2018.herokuapp.com/calendar
 
+# More Details
+
 ### Technologies Used:
 
 HTML, CSS, JS, Bootstrap, Node.js, MongoDB - NoSQL data base, PASSPORT for authentication, MVC folder structure, Heroku for data deployment
