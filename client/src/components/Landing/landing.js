@@ -62,8 +62,8 @@ class Landing extends React.Component {
                  {user &&
                 <div>
                     <div id="landing">
-                        <h1 id="welcomeText">Welcome To Roomie</h1>
-                        <h1 id="loginText">Welcome Back {user.username}!</h1>
+                        {/* <h1 id="welcomeText">Welcome To Roomie</h1> */}
+                        <h1 id="loginText">Welcome {user.username}!</h1>
                         <div id="landingLeft">
                             <img id="side2" alt="side2" src="/img/side2.png" />
                         </div>
@@ -82,8 +82,8 @@ class Landing extends React.Component {
                   {!user &&
                    <div>
                    <div id="landing">
-                       <h1 id="welcomeText">Welcome to Roomie</h1>
-                       <h1 id="loginText">I don't recognize you! Please <a><Link to="/login">
+                       {/* <h1 id="welcomeText">Welcome to Roomie</h1> */}
+                       <h1 id="loginText">Welcome to Roomie! <a ><Link to="/login" id="landingLogLink" style={{ textDecoration: 'none' }}>
                        Login/Register</Link></a></h1>
                        <div id="landingLeft">
                            <img id="side2" alt="side2" src="/img/side2.png" />

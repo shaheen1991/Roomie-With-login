@@ -62,7 +62,7 @@ class CreateAccountPage extends Component {
         <Row className="login-page-row">
           <Col xs={6} xsOffset={3}>
             <form onSubmit={this.handleLogin}>
-              <h1>Create Account</h1>
+              <h1 style={{fontFamily: "'Alegreya Sans', sans-serif"}}>CREATE ACCOUNT</h1>
               {error &&
                 <div>
                   {error}
@@ -86,8 +86,8 @@ class CreateAccountPage extends Component {
                 />
               </div>
               <div>
-                <RaisedButton primary type="submit">
-                  Create Account
+                <RaisedButton className="createAcctBtn" primary type="submit" >
+                  CREATE ACCOUNT
                 </RaisedButton>
               </div>
             </form>

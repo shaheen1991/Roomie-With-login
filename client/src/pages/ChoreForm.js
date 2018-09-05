@@ -8,6 +8,7 @@ import API from "../utils/API"
 import Wrapper from "../components/Wrapper";
 import { withUser } from '../services/withUser';
 import Landing from '../components/Landing/landing';
+import "../css/ChoreForm.css";
 
 
 class ChoreForm extends React.Component {

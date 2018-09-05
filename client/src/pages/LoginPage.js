@@ -52,13 +52,13 @@ class LoginPage extends Component {
         <Row className="login-page-row">
           <Col xs={6} xsOffset={3}>
             <form onSubmit={this.handleLogin}>
-              <h1>Log In</h1>
+              <h1 style={{fontFamily: "'Alegreya Sans', sans-serif"}}>LOG IN / REGISTER</h1>
               {error &&
                 <div>
                   {error}
                 </div>
               }
-              <div>
+              <div style ={{marginBottom: -15}}> 
                 <TextField
                   name="username"
                   hintText="Username"
@@ -66,7 +66,7 @@ class LoginPage extends Component {
                   onChange={this.handleInputChanged}
                 />
               </div>
-              <div>
+              <div style={{marginBottom: 15}}>
                 <TextField
                   name="password"
                   hintText="Password"
@@ -76,15 +76,15 @@ class LoginPage extends Component {
                 />
               </div>
               <div>
-                <RaisedButton className="button" primary type="submit">
+                <RaisedButton className="raisedLogBtn" primary type="submit" style={{color: "#F8F1E5", marginTop: 10}}>
                   Log In
                 </RaisedButton>
               </div>
               <p className="or">
-                or
+                OR
               </p>
               <p>
-                <Link className="register" to="/create">
+                <Link style={{ textDecoration: 'none' }} className="register" to="/create">
                 Register
                 </Link>
               </p>

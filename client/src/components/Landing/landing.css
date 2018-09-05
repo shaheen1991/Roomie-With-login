@@ -18,7 +18,8 @@ html {
     width: 100%;
 
 }
-#welcomeText {
+
+#loginText {
     position: fixed;
     top: 0;
     right: 0; 
@@ -33,7 +34,12 @@ html {
                  0px 8px 13px rgba(140,106,78,0.1),
                  0px 18px 23px rgba(140,106,78,0.1);
 }
-/* linear-gradient (to bottom, rgb(248,241,229, 1.0) 0%, rgba(140,106,78, 0.7) 30%, rgba(140,106,78, 0.9) 100%), */
+
+#landingLogLink {
+    color: rgb(66,110,134);
+}
+
+
 #landing {
     background: url("/img/bedroom.jpg");
     background-position: center center;
@@ -103,7 +109,7 @@ html {
     top: 0;
 }
 
-#loginText {
+/* #loginText {
     position: fixed;
     top: 0;
     left: 0; 
@@ -117,4 +123,4 @@ html {
     text-shadow: 0px 4px 3px rgba(140,106,78,0.1),
                  0px 8px 13px rgba(140,106,78,0.1),
                  0px 18px 23px rgba(140,106,78,0.1);
-}
+} */
