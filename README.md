@@ -31,4 +31,7 @@ NPM packages:react-big-calender,react-bootstrap,react-burger-menu,react-custom-s
 
 # Future Development
 
+- When users register, the house/apartment address will also be specified so that the user is restricted to seeing only their house's information
+- More fun and interactive aspects to the page so that this is the go-to for everything roommate-related 
+- Chorelist page specific for each user and/or Calendar page specific to each user
 
