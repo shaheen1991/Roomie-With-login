@@ -24,7 +24,7 @@ HTML, CSS, JS, Bootstrap, Node.js, MongoDB - NoSQL data base, PASSPORT for authe
 Express, body-parser, cookie-parser, morgan, mongoose, routes
 
 ### Dependencies:
-auth0-js, axios, body-parser, create-react-class, express, fullcalendar, if-env, jquery, moment, mongoose, bcrypt, cookie-parsr, express-session, material-ui, morgan, passport
+axios, body-parser, create-react-class, express, fullcalendar, if-env, jquery, moment, mongoose, bcrypt, cookie-parsr, express-session, material-ui, morgan, passport.
     
 ### NPM Packages:
 * react-big-calender
@@ -34,6 +34,7 @@ auth0-js, axios, body-parser, create-react-class, express, fullcalendar, if-env,
 * react-spinners
 * react-emotion
 * react-responsive-modal
+* material-ui
 
 
 # Future Development
