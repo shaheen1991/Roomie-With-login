@@ -12,7 +12,7 @@ ChoreForm - The ChoreForm page is used to input new chores which will be randoml
 
 ## Deployment
 
-You can view the site at: https://ss-roomie2018.herokuapp.com/calendar
+You can view the site at: https://ss-roomie2018.herokuapp.com
 
 # More Details
 
