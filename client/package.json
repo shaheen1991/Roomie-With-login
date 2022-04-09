@@ -13,7 +13,7 @@
     "emotion": "^9.2.8",
     "font-awesome": "^4.7.0",
     "material-ui": "^0.20.0",
-    "moment": "^2.22.2",
+    "moment": "^2.29.2",
     "react": "^16.0.0",
     "react-big-calendar": "^0.19.2",
     "react-bootstrap": "^0.32.1",
